@@ -17,7 +17,7 @@ dependencies:
       require: private
       version: '>=5.0'
     source:
-      registry_url: https://components.espressif.com
+      registry_url: https://components.espressif.com/
       type: service
     version: 1.0.4
   idf:
@@ -26,7 +26,8 @@ dependencies:
     version: 6.1.0
 direct_dependencies:
 - espressif/ds18b20
+- espressif/onewire_bus
 - idf
-manifest_hash: 07a993e7d3ec5082f62f36760ad2b32e2507939128180aca096a5e4eb9be0386
+manifest_hash: f0c664295e54ac632ec98a68129b87d1af1cd81ebc520b26f392eaecc6d91587
 target: esp32s3
 version: 2.0.0
